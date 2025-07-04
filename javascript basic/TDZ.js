@@ -9,5 +9,5 @@ let a = 12;
 // ERROR: can not access a before initialisation 
 
 
-var b  = 13; // undefined 
-// only be done in let and const but not be done in var 
+var b = 13; // undefined 
+// only be done in let and const but not be done in var..

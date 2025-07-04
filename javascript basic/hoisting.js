@@ -19,7 +19,7 @@ let b = 13;
 
 // var -> hoist -> undefined 
 // let -> hoist -> refference error 
-// const -> hoist -> refference error 
+// const -> hoist -> refference error..
 
 
 

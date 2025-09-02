@@ -22,9 +22,9 @@ arr.shift();
 let arr = [1, 2, 3, 4, 5];
 arr.unshift();
 
-// spice -> removes value from between array
+// splice -> removes value from between array
 let arr = [1, 2, 3, 4, 5];
-arr.spice(2,1);
+arr.splice(2,1);
 
 // slice -> it creates a new array after removing the desired values 
 let arr = [1, 2, 3, 4, 5];

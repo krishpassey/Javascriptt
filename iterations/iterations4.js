@@ -9,6 +9,7 @@ const myObject = {
 for (const key in myObject) {
     console.log(key);
 }
+// this one is for object 
 
 
 
@@ -18,6 +19,7 @@ for (const key in programming) {
     console.log(key);
 }
 
+// this one is for arrays
 
 
 

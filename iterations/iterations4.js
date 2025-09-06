@@ -12,7 +12,6 @@ for (const key in myObject) {
 
 
 
-
 const programming = ["js", "rb", "py", "java"]
 
 for (const key in programming) {

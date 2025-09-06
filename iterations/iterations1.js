@@ -15,6 +15,7 @@ for (let i = 0; i <= 10; i++) {
 }
 
 
+
 let myArr = ["flash", "batman", "superman"]
 console.log(myArr.length)
 for (let index = 0; index < array.length; index++) {

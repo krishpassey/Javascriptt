@@ -15,7 +15,6 @@ while(arr < myArr.length) {
 }
 
 
-
 let score = 11
 
 do {

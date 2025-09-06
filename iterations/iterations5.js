@@ -45,5 +45,5 @@ const myCoding = [
 ]
 
 myCoding.forEach( (item) => {
-    xonsole.log(item.languageName);
+    console.log(item.languageName);
 })

@@ -14,10 +14,44 @@
     // }
 
 
-    document.getElementById('owl').addEventListner('click', function(){
-        alert("owl clicked again")
+    // type, timestamp, defaultPrevented
+    // target, toElement, srcElement, currentTarget
+    // clientX, clientY, screenX, screenY
+    // altket, ctrlkey, shiftkey,keycode
+
+
+    //document.getElementById('images').addEventListner('click', function(e){
+     //   console.log("clicked inside the ul");
+    // }, false)
+
+     //   document.getElementById('owl').addEventListner('click', function(e){
+      //  console.log("owl clicked");
+     //   e.stopPropogation() // it helps in stopping the propogation
+   // }, false)
+
+
+    // when there is true it is in capturing mode i.e top to bottom 
+    // when there is false (default value) it is in bubbling mode i.e bottom to top
+
+
+   // document.getElementById('google').addEventListner('click', function(e){
+    //    console.log("google clicked");
+    //    e.preventDefault(); // telling the browser to not perform its default action for that specific event. This allows you to implement custom behavior instead.
+   // }, false)
+
+
+   document.querySelector('#images').addEventListener('click', function(e){
+    console.log(e.target.tagName);
+    if(e.target.tagName === 'img'){
+        console,log(e.target.id);
+          let removeIt = e.target.parentNode
+          removeIt.remove()
+      }
+  
     }, false)
 
+// removeIt.parentNode.removeChild(removeIt)
+    
     </script>
 </body>
 </html>

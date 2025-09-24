@@ -15,13 +15,16 @@
         const hex = '0123456789ABCDEF';
         let color = '#';
         for (let i = 0; i < 6; i++) {
-            color += hex[math.flooor(math.random() * 10)];
+            color += hex[math.floor(math.random() * 10)];
         }
         return color;
 };
 let intervalId;
 const startChangingColor = function(){
-   intervalId =  setInterval(changeBgColor, 1000);
+   if(!intervalId) {
+    intervalId =  setInterval(changeBgColor, 1000);
+   }
+
     function startChangingColor () {
         document.body.style.backgroundColor = randomColor();
     };

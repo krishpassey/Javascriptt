@@ -15,7 +15,7 @@
         const hex = '0123456789ABCDEF';
         let color = '#';
         for (let i = 0; i < 6; i++) {
-            color += hex[math.floor(math.random() * 10)];
+            color += hex[Math.floor(Math.random() * 16)];
         }
         return color;
 };
@@ -25,14 +25,15 @@ const startChangingColor = function(){
     intervalId =  setInterval(changeBgColor, 1000);
    }
 
-    function startChangingColor () {
+    function changeBgColor () {
         document.body.style.backgroundColor = randomColor();
     };
 };
 
-const stopChangingColor = function(){}
+const stopChangingColor = function(){
 clearInterval(intervalId);
 intervalId = null;
+}
 
 document.querySelector("#start").addEventListener('click', startChangingColor);
 

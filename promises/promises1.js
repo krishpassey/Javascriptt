@@ -23,3 +23,33 @@ newPromise(function(resolve, reject) {
 })
 
 
+
+const promiseThree = new Promise(function() {
+    setTimeout(function() {
+        resolve({username: "krish", email: "krish@gmail.com"})
+
+        },1000)
+    })
+
+    promiseThree.then(function(user) {
+        console.log(user);
+    })
+
+
+    const promiseFour = new Promise(function(resolve, reject) {
+        setTimeout(function() {
+            let error = true 
+            if(!error) {
+                resolve({username: "dev", password: "22839"})
+            } else{
+                reject('ERROR: something went wrong')
+            }
+
+             }, 1000)
+        })
+
+        promiseFour.then((user) => {
+            console.log(user)
+        })
+
+   

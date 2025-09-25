@@ -48,8 +48,16 @@ const promiseThree = new Promise(function() {
              }, 1000)
         })
 
-        promiseFour.then((user) => {
-            console.log(user)
+        promiseFour
+        .then((user) => {
+            console.log(user);
+            return user.username
+        })
+        .then ((username) => {
+            console.log(username);
+        })
+        .catch(function(error) {
+            console.log(error);
         })
 
    

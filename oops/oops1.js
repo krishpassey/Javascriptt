@@ -4,9 +4,12 @@ const user = {
     signedIn: true,
 
     getUserDetails: function() {
-        console.log("Got the user details from database");
+        //console.log("Got the user details from database");
+        console.log(`username: ${this.username}`);
     }
+
 }
 
 console.log(user.username);
 console.log(user.getUserDetails());
+

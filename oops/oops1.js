@@ -22,4 +22,5 @@ function user (username, loginCount, isLoggedIn) {
 }
 
 const userOne = user("krish", 12, true)
+const userTwo = user("dev", 11, false)
 console.log(userOne);

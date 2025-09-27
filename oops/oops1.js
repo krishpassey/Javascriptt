@@ -21,6 +21,8 @@ function user (username, loginCount, isLoggedIn) {
     return this
 }
 
-const userOne = user("krish", 12, true)
-const userTwo = user("dev", 11, false)
+const userOne = new user("krish", 12, true)
+const userTwo = new user("dev", 11, false)
 console.log(userOne);
+
+

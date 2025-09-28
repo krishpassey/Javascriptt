@@ -16,6 +16,7 @@ object literal
 - Classes
 - Instances (new, this)
 
+
 ## 4 pillars
 Abstraction
 Encapsulation

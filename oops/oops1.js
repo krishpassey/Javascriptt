@@ -23,7 +23,7 @@ function user (username, loginCount, isLoggedIn) {
 
 const userOne = new user("krish", 12, true)
 const userTwo = new user("dev", 11, false)
-console.log(userOne);
+console.log(userOne.constructor);
 console.log(userTwo);
 
 

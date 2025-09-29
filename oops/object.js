@@ -9,7 +9,6 @@ console.log(multipleBy5.power);
 console.log(multipleBy5.prototype)
 
 
-
 function createUser(username, score) {
     this.username = username
     this.score = score

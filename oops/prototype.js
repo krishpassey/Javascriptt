@@ -52,3 +52,14 @@ Teacher.__proto__ = User
 
 // modern syntax
 Object.setPrototypeOf(TeachingSupport, Teacher);
+
+
+
+let AnotherUsername = "ChaiAurCode   "
+String.prototype.trueLength = function(){
+    console.log(`${this}`);
+    console.log(`true length is: ${this.trim().length}`);
+}
+
+AnotherUsername.trueLength()
+

@@ -11,6 +11,7 @@
 ## parts of OOP
 
 object literal
+
 - constructor function
 - Prototypes
 - Classes

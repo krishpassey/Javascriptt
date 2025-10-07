@@ -12,7 +12,6 @@
 
 object literal
 
-
 - constructor function
 - Prototypes
 - Classes

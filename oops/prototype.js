@@ -15,7 +15,6 @@ Object.prototype.krish = function() {
     console.log(`krish is present in all objects`);
 }
 
-
 Array.prototype.heyKrish = function () {
     console.log(`krish says Hello`);
 }

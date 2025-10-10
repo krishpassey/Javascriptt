@@ -16,7 +16,6 @@ Object.prototype.krish = function() {
 }
 
 
-
 Array.prototype.heyKrish = function () {
     console.log(`krish says Hello`);
 }

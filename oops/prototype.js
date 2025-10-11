@@ -18,6 +18,7 @@ Array.prototype.heyKrish = function () {
     console.log(`krish says Hello`);
 }
 
+
 // heroPower.krish()
 myHeros.krish()
 myHeros.heyKrish()

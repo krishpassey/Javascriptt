@@ -10,6 +10,7 @@ let HeroPower = {
     }
 }
 
+
 Object.prototype.krish = function() {
     console.log(`krish is present in all objects`);
 }

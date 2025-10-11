@@ -8,7 +8,6 @@ let HeroPower = {
     getSpiderPower: function() {
         console.log(`spidy power is ${this.spiderman}`);
     }
-
 }
 
 Object.prototype.krish = function() {

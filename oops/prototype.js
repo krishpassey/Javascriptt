@@ -24,7 +24,6 @@ myHeros.heyKrish()
 //HeroPower.heyKrish()
 
 
-
 // inheritance
 
 const User = {

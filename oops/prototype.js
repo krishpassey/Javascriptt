@@ -1,6 +1,7 @@
 let myHeros = ["thor", "spiderman"]
 
 
+
 let HeroPower = {
     thor: "hammer",
     spiderman: "sling",
